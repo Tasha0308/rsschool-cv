@@ -3,7 +3,7 @@ box-sizing: border-box;
 background: rgb(169, 248, 169);
 }
 
-@media sceeen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .section {
         width: 100%;}
 }
