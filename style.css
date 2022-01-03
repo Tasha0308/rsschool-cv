@@ -1,5 +1,6 @@
 * {
 box-sizing: border-box;
+background: lightgreen;
 }
 
 . body {
@@ -11,6 +12,14 @@ box-sizing: border-box;
     justify-content: space-between;
 }
 
+.main_contaiter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
