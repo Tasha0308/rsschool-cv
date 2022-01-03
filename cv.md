@@ -1,5 +1,10 @@
 # NATALLIA BELIATSKAYA
 =======================
+
+*Phone number: +375296817933*
+===
+*E-mail: tashabeliatskaya@gmail.com*
+
 ### About me
 I live in Minsk. Education - BA (Hons) in Business Economics.
 Currently my objective is to study the course «JavaScript/Front-end». Currently my priority is study
