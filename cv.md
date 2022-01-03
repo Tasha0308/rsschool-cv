@@ -1,20 +1,21 @@
 # NATALLIA BELIATSKAYA
-=======================
+
 
 *Phone number: +375296817933*
-===
+
 *E-mail: tashabeliatskaya@gmail.com*
 
 ### About me
 I live in Minsk. Education - BA (Hons) in Business Economics.
 Currently my objective is to study the course «JavaScript/Front-end». Currently my priority is study
-=================
+
+
 Language skills:
-=================
+
 *	Russian - Proficiency
 *	Belorussian - Advanced
 *	English - Pre-Intermediate
-=================
+
 
 *Personal qualities*
 ==================
@@ -26,7 +27,6 @@ Language skills:
 *	responsibility
 *	communicability
 *	conflict-free
-==================
 
 *Skills*
 ==================
@@ -34,7 +34,6 @@ Language skills:
 *	experience in the field of business analysis, business planning, business optimization of enterprises
 *	participation in conference
 *	public speaking
-===================
 
 #### Example HTML
 ```
