@@ -36,3 +36,27 @@ box-sizing: border-box;
 .section-item a:hover {
     color: black;
 }
+
+.section_title {
+    color: darkgreen;
+    font-style: italic;
+}
+
+.list {
+    list-style: none;
+    padding: 2px;
+}
+
+.text {
+    margin: 1px;
+   }
+
+ .language_skills {
+    font-style: italic;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.exampl {
+    color: green;
+}
