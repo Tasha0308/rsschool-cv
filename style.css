@@ -81,7 +81,7 @@ h2 {
 .nav-item a:hover {
     color: #010c08;
     text-decoration: solid;
-    font-size: larger;
+    font-size: medium;
 }
 
 .section_title {
