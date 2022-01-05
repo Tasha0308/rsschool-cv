@@ -1,22 +1,31 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto-Black.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto-Light.ttf");
+    font-weight: 300;
+}
+
+
 * {
 box-sizing: border-box;
 background: rgb(169, 248, 169);
 }
 
-@media screen (max-width: 768px) {
-    .section {
-        width: 100%;}
-}
-
-.section {
-    width: 50%;
-}
-
-
-
 body {
     margin: 0;
     padding: 0 0 0 25px;
+    font-family: Roboto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -30,21 +39,30 @@ ul, li {
 
 .main_container {
     display: flex;
-   flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .section {
     width: 50%;
 }
 
-
-.container {
-    max-width: 1040px;
-    margin: 0 auto;
-}
-
 .nav-list {
     display: flex;
+    flex-flow: row wrap;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
@@ -60,8 +78,10 @@ ul, li {
     transition: .5s;
 }
 
-.section-item a:hover {
-    color: black;
+.nav-item a:hover {
+    color: #010c08;
+    text-decoration: solid;
+    font-size: larger;
 }
 
 .section_title {
@@ -72,13 +92,16 @@ ul, li {
 .list {
     list-style: none;
     padding: 2px;
+    font-weight: 300;
+
 }
 
 .text {
-    margin: 1px;
+    margin: 5px;
+    font-weight: 300;
    }
 
- .language_skills {
+.language_skills {
     font-style: italic;
     margin-bottom: 0;
     margin-top: 0;
@@ -86,4 +109,35 @@ ul, li {
 
 .exampl {
     color: green;
+}
+
+#burger, [for=burger] {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .section {
+        width: 100%;}
+
+    [for=burger] {
+            display: block;
+            position: absolute;
+            width: 50px;
+            text-align: center;
+            left: 5px;
+            top: 3px;
+            text-decoration: underline;
+        }
+
+    .nav {
+        display: none;
+    }
+
+    #burger:checked + label + nav {
+        display: block;
+        margin-top: 25px;
+    }
+
+
+
 }
