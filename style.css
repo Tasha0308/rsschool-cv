@@ -62,6 +62,7 @@ h2 {
 
 .nav-list {
     display: flex;
+    flex-flow: row wrap;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
@@ -110,7 +111,33 @@ h2 {
     color: green;
 }
 
+#burger, [for=burger] {
+    display: none;
+}
+
 @media screen and (max-width: 700px) {
     .section {
         width: 100%;}
+
+    [for=burger] {
+            display: block;
+            position: absolute;
+            width: 50px;
+            text-align: center;
+            left: 5px;
+            top: 3px;
+            text-decoration: underline;
+        }
+
+    .nav {
+        display: none;
+    }
+
+    #burger:checked + label + nav {
+        display: block;
+        margin-top: 25px;
+    }
+
+
+
 }
