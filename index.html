@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>CV</title>
-    </head>
+   </head>
+   <body>
     <header class ="header">
         <div class ="container">
             <input type="checkbox" id="burger">
@@ -27,8 +28,8 @@
         <div class ="container main_container">
             <section class ="section" id="contacts"> 
                 <h1 class ="section_title"> NATALLIA BELIATSKAYA</h1>
-                <img src="https://avatarko.ru/img/kartinka/25/kot_kniga_24244.jpg" alt="clever cat" width="100" height="100">
-                 <h2 class ="section_title"> Contacts</h2>
+                <div class="avatar"> <img src="https://avatarko.ru/img/kartinka/25/kot_kniga_24244.jpg" class="round" alt="clever cat" width="100" height="100"></div>
+                <h2 class ="section_title"> Contacts</h2>
                 <ul>
                     <li class ="list">
                         Phone number: +375296817933
@@ -104,36 +105,30 @@
             </section>
             <section class ="section" id="project">
                 <h2 class ="section_title">Project</h2>
-                <p class ="text"> My project <br> <br>
-                <a href="https://tasha0308.github.io/rsschool-cv/cv"> Markdown & Git</a> <br> <br> <br>
-                <a href="https://hungry-shockley-12cdd9.netlify.app/"> The MOVIE DV</a>
+                <p class ="text"> 
+                <a href="https://tasha0308.github.io/rsschool-cv/cv" class="url"> Project   "Markdown & Git"</a> <br> <br> 
+                <a href="https://hungry-shockley-12cdd9.netlify.app/" class="url">Project "The MOVIE DV"</a>
             </p> 
             </section>
             <section class ="section" id="code">
                 <h2 class ="section_title">Code</h2>
-                <P class ="exampl">Example HTML</P>
-                <pre >
-                    <code>
-&lt;div&gt;
-&lt;p&gt;Language skills:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class ="list"&gt;Russian - Proficiency&lt;/li&gt;
-&lt;li class ="list"&gt;Belorussian - Advanced&lt;/li&gt;
-&lt;li class ="list"&gt;English - Pre-Intermediate&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-                    </code>
-                </pre>
+                <P class ="exampl" class="backgraund-code">Example </P>
+                <pre><code class="javascript" class="backgraund-code">const calculate=(...x)=&gt;(...y)=&gt; {
+                    let xy=x.concat(y);
+                    return xy.reduce((a,b)=&gt;a+b,0)
+                  }</code></pre>
             </section>
         </div>
     </main>
     <footer class ="footer">
         <div class ="container">
-            <a href="https://github.com/Tasha0308">Created by Natallia Beliatskaya, 2022</a>
+            <a href="https://github.com/Tasha0308" class="url">Created by Natallia Beliatskaya, 2022</a>
             <br>
             <img src="https://rs.school/images/rs_school_js.svg" alt="logotype rsscool" width="100" height="50">
-            <a href="https://rs.school/js/">Course «JavaScript/Front-end»</a>               
+            <a href="https://rs.school/js/" class="url">Course «JavaScript/Front-end»</a>               
         </div> 
     </footer>
+    
 </body>
+
     </html>

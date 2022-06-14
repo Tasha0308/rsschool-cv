@@ -19,12 +19,13 @@
 
 * {
 box-sizing: border-box;
-background: rgb(169, 248, 169);
 }
 
+    
 body {
+    background: rgb(169, 248, 169, 0.8);
     margin: 0;
-    padding: 0 0 0 25px;
+    padding: 0 0 0 0px;
     font-family: Roboto;
     min-height: 100vh;
     display: flex;
@@ -46,6 +47,14 @@ h1 {
     margin-top: 20px;
     margin-left: 30px;
     font-weight: 900;
+}
+.avatar {
+    margin-left: 100px;
+   
+}
+
+.round {
+    border-radius: 50px;
 }
 
 h2 {
@@ -74,20 +83,21 @@ h2 {
     padding: 0 20px;
     list-style: 50px;
     font-size: 14px;
-    color: darkgreen;
+    color: rgb(9, 19, 9, 0.8);
     text-decoration: none;
     font-weight: bold;
     transition: .5s;
 }
 
 .nav-item a:hover {
-    color: #010c08;
+    color: rgb(9, 19, 9, 1);
     text-decoration: solid;
-    font-size: medium;
+    font-weight: 800;
+    font-style: italic;
 }
 
 .section_title {
-    color: darkgreen;
+    color: rgb(2, 19, 2);
     font-style: italic;
 }
 
@@ -117,6 +127,26 @@ h2 {
     display: none;
 }
 
+.url {
+    color: rgb(63, 55, 71, 0.8);
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.url:hover {
+    color: rgb(63, 55, 71, 1);
+    text-decoration: none;
+    font-weight: 800;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    background: rgb(169, 248, 169, 1);
+
+}
+
 @media screen and (max-width: 700px) {
     .section {
         width: 100%;}
@@ -142,4 +172,8 @@ h2 {
 
 
 
+}
+
+.backgraund-code {
+    background: white;
 }
