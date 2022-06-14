@@ -81,7 +81,6 @@ h2 {
 
 .nav-link {
     padding: 0 20px;
-    list-style: 50px;
     font-size: 14px;
     color: rgb(9, 19, 9, 0.8);
     text-decoration: none;
@@ -172,8 +171,4 @@ footer {
 
 
 
-}
-
-.backgraund-code {
-    background: white;
 }
